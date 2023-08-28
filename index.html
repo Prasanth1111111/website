@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasanth Kumar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!--s
+        this is your navigation part
+    -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)">Prasanth</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="certification.html">Certification</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">Project</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--
+        this part is carousel part 
+    -->
+    <div class="container-fluid">
+
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/image/three.jpg" class="d-block w-100" alt="..." height="550">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>PRASNTH KUMAR REDDY</h3>
+                        <p>welcome to my website</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/four.jpg" class="d-block w-100" alt="..." height="550">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>PRASNTH KUMAR REDDY</h3>
+                        <p>welcome to my website</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/two.jpg" class="d-block w-100" alt="..." height="550">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>PRASNTH KUMAR REDDY</h3>
+                        <p>welcome to my website</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!--modals-->
+    <div class="container text-center mt-4">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contact">
+            Contacts
+        </button>
+
+        <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#skills"
+            style="background-color: darkorange;">
+            Skills
+        </button>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contact">
+            Contacts
+        </button>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal" id="contact">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Contact with me :</h4>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p><strong>Location : </strong> Banglore </p>
+                    <p><strong>Mobile : </strong>9347709018</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="skills">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Contact with me :</h4>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p><strong>Python : </strong> Banglore </p>
+                    <p><strong>Mobile : </strong>9347709018</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="m-4 text-center">
+            <h3>Academic background</h3>
+        </div>
+        <div class="row mt-4">
+            <div class="col-sm">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">the design</font>
+                            </font>
+                        </strong>
+                        <h3 class="mb-0">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Job title</font>
+                            </font>
+                        </h3>
+                        <div class="mb-1 text-muted">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">November 11</font>
+                            </font>
+                        </div>
+                        <p class="mb-auto">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">This is a broader card with supporting text below
+                                    as a natural introduction to additional content.</font>
+                            </font>
+                        </p>
+                        <a href="#" class="stretched-link">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Read on</font>
+                            </font>
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="/image/clg_img.jpg" alt="college image" class="bd-placeholder-img" width="250" height="250">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">the design</font>
+                            </font>
+                        </strong>
+                        <h3 class="mb-0">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Job title</font>
+                            </font>
+                        </h3>
+                        <div class="mb-1 text-muted">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">November 11</font>
+                            </font>
+                        </div>
+                        <p class="mb-auto">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">This is a broader card with supporting text below
+                                    as a natural introduction to additional content.</font>
+                            </font>
+                        </p>
+                        <a href="#" class="stretched-link">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Read on</font>
+                            </font>
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="/image/clg_img.jpg" alt="college image" class="bd-placeholder-img" width="250" height="250">
+
+                    </div>
+                </div>
+            </div>
+        </div><br>
+
+        <div class="col-sm-6 mx-auto d-block">
+            <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">the design</font>
+                    </font>
+                </strong>
+                <h3 class="mb-0">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Job title</font>
+                    </font>
+                </h3>
+                <div class="mb-1 text-muted">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">November 11</font>
+                    </font>
+                </div>
+                <p class="mb-auto">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">This is a broader card with supporting text below
+                            as a natural introduction to additional content.</font>
+                    </font>
+                </p>
+                <a href="#" class="stretched-link">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Read on</font>
+                    </font>
+                </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img src="/image/clg_img.jpg" alt="college image" class="bd-placeholder-img" width="250" height="250">
+
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!--
+        this is footer part 
+    -->
+    <div class="container-fluid text-center">
+        <footer class="blog-footer">
+            <p>this website desined  using bootstap by Prasanth reddy </p>
+            <p>
+              <a href="#">Back to top</a>
+            </p>
+          </footer>
+    </div>
+
+
+</body>
+
+</html>
